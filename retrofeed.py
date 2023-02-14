@@ -6,7 +6,7 @@ import sys
 import textwrap as tw
 import time
 
-# Retrofeed imports
+# PREDICTA//FEED imports
 import ap_news
 import finance
 import spot_the_station
@@ -18,7 +18,7 @@ import weather
 # Globals... Sooo many globals :-O
 # (Might be nice to read these from a config file or something?)
 
-VERSION = '0.1.2'
+VERSION = '4.20'
 
 # Use faster timings if there are any command-line args at all
 if len(sys.argv) == 1:
@@ -336,8 +336,8 @@ def show_title():
     os.system('clear')
     for i in range(24):
         print()
-    slowp(f'RETROFEED - VERSION {VERSION}')
-    slowp('Copyright (C) Jeff Jetton')
+    slowp(f'PREDICTA//FEED - VERSION {VERSION}')
+    slowp('Copyright (C) 2o23 pAULIE42o')
     slown()
     slown()
 
